@@ -255,13 +255,13 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   var newNumber = [];
-  var valor = 0;
+  var valor = numero;
       for (i = 0; i < 10; i++){
-          valor = valor + 2
-      if (i == 5 ){
+      if (i === 5 ){
       continue;     
     }
-  else{ newNumber.push(valor);
+  else{ valor = valor +2;
+      newNumber.push(valor)
 }}
 
   return newNumber;
