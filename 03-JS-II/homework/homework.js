@@ -155,7 +155,7 @@ function esPrimo(numero) {
   if (numero < 2){
     return false;
   }
-  for (let i=2; i < numero; i++){
+  for (let i=2; i <numero ;i++){
     if (numero % i === 0)
       return false;
   }
@@ -179,7 +179,7 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  for (let i = 0; i<10; i++){
+  for (let i = 0; i < 1; i++){
       i = i*6
       return[0,6,12,18,24,30,36,42,48,54,60]}
   
@@ -202,7 +202,7 @@ function doWhile(numero) {
   let i = 0
   do {
     numero = numero +5 
-    i= i + 1
+     i= i + 1
   }
   while (i < 8)
   return numero
